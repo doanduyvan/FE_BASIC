@@ -15,6 +15,7 @@ body{
 :root{
     --bg : #E6F0FF;
     --btn_color : #0F1B4C;
+    --text-color : #7D8589;
 }
 
 .width-max{

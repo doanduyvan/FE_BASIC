@@ -15,7 +15,6 @@ header{
     left: 0;
     right: 0;
     background-color: var(--bg);
-    opacity: .95;
     z-index: 2;
     border-bottom: 1px solid rgba(156, 154, 154,0.2);
 }
@@ -158,4 +157,43 @@ header{
     color: white;
     background-color: var(--btn_color);
     border-radius: 10px;
+}
+
+.section1{
+    margin-top: 50px;
+}
+.section1 .info{
+    justify-content: space-between ;
+    flex-wrap: wrap;
+}
+.section1 .info .stars{
+    padding-top: 6px;
+}
+.section1 .info .stars path{
+    fill: #FFCA56;
+    
+}
+
+.section1 .info .more{
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.section1 .branch{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    place-items: center;
+    margin-top: 50px;
+}
+
+.section1 .branch>.item{
+    /* background-color: aqua; */
+    width: fit-content;
+    padding: 10px 20px;
+    padding-top: 15px;
+    border-radius: 15px;
+
+}
+.section1 .branch>.item:hover{
+    box-shadow: 0 5px 15px rgb(199, 197, 197);
 }

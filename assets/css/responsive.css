@@ -9,6 +9,9 @@
     .mobi{
         display: none;
     }
+    .ht1{
+        opacity: 0.98;
+    }
 }
 
 /* mobile */
@@ -98,4 +101,14 @@
 .header .header_body .left .h1{
     font-size: 5rem;
 }
+}
+
+@media screen and (max-width: 570px) {
+    .section1 .info{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .section1 .info>*{
+        
+    }
 }
