@@ -158,3 +158,9 @@
     opacity: 0.8;
 }
 }
+
+@media screen and (max-width: 420px) {
+    .section4 .top>.left>.img{
+        width: 100%;
+    }
+}
