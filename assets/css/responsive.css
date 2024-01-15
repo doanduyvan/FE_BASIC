@@ -159,7 +159,7 @@
 }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .section4 .top>.left>.img{
         width: 100%;
     }
