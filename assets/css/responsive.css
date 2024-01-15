@@ -164,3 +164,33 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1065px) {
+    .section5>.swapper>.img{
+        right: 3%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .section5{
+        margin-top: 4rem;
+    }
+    .section5>.swapper>.img{
+       display: none;
+    }
+    
+}
+
+@media screen and (max-width: 660px) {
+    .section5>.swapper{
+        padding: 5rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 460px) {
+.footer>.bottom{
+    flex-direction: column;
+    gap: 1rem;
+}
+}

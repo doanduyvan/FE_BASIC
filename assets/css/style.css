@@ -120,9 +120,7 @@ header{
         box-shadow: 0 0 5px 5px red;
     }
 }
-.header .header_body .right .img{
- 
-}
+
 .header .header_body .right .img img{
     width: 100%;
     height: 100%;
@@ -357,16 +355,13 @@ header{
 .section4{
     margin-top: 7.5rem;
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 .section4 .top{
     justify-content: center;
     /* overflow: hidden; */
 }
-.section4 .top>*{
-    /* flex: 1; */
-    /* overflow: hidden; */
-    
-}
+
 .section4 .top>.left{
     /* background-color: #3B3C45; */
     width: fit-content
@@ -467,12 +462,103 @@ header{
     width: 100%;
 }
 
-
-
-
-
-.temp{
-    width: 100px;
-    height: 500px;
-    background-color: red;
+.section4 .bottom{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 10rem;
 }
+.section4 .bottom>.item{
+    padding: 0 2rem;
+} 
+.section4 .bottom>.item>h3{
+    font-size: 6.4rem;
+}
+.section4 .bottom>.item>p{
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-top: 2.2rem;
+}
+.section5{
+    margin-top: 8rem;
+}
+.section5>.swapper{
+    background-color: #063183;
+    height: 35rem;
+    border-radius: 20px;
+    padding-top: 9rem;
+    padding-left: 8rem;
+    position: relative;
+}
+.section5>.swapper>h3{
+    font-size: 3.5rem;
+    color: white;
+}
+.section5>.swapper>p{
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 1.8rem;
+    margin-bottom: 2.8rem;
+}
+.section5>.swapper>button{
+    font-size: 1.5rem;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: #002366;
+    cursor: pointer;
+}
+
+.section5>.swapper>.img{
+    position: absolute;
+    right: 15%;
+    bottom: -5px;
+}
+.footer{
+    margin-top: 5rem;
+}
+.footer>.top{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.footer>.top>*{
+    /* background-color: #002366; */
+    max-width: 22rem;
+}
+.footer>.top>.item>.title{
+    font-size: 2rem;
+}
+.footer>.top>.item>ul{
+    margin-top: 4rem;
+}
+
+.footer>.top>.item>ul>li+li{
+    margin-top: 2rem;
+}
+
+.footer>.top>.item>ul a{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.footer>.top>.item>.link_icon{
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.footer>.top>.item>.link_icon>*{
+    cursor: pointer;
+}
+
+.footer>.bottom{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    padding-bottom: 4rem;
+}
+.footer>.bottom>.text>span{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+
