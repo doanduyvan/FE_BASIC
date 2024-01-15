@@ -94,3 +94,8 @@
     }
 }
 
+@media screen and (max-width: 540px) {
+.header .header_body .left .h1{
+    font-size: 5rem;
+}
+}
