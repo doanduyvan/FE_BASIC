@@ -16,6 +16,7 @@ body{
     --bg : #E6F0FF;
     --btn_color : #0F1B4C;
     --text-color : #7D8589;
+    --text-color1 : #5A6473;
 }
 
 .width-max{
@@ -27,6 +28,12 @@ body{
     .width-max{
         padding-left: 4%;
         padding-right: 4%;
+    }
+}
+@media (min-width: 1000px ) and (max-width: 1600px){
+    .width-max{
+        padding-left: 7%;
+        padding-right: 7%;
     }
 }
 
